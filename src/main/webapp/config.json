@@ -1,0 +1,94 @@
+{
+  "displayName" : "Firebase_push_notifications",
+  "group" : "",
+  "iconUrl" : "/resources/images/imagelists/prefab-icon.png",
+  "resources" : {
+    "styles" : [ "/pages/Main/Main.css" ],
+    "scripts" : [ "/resources/firebase-dependencies/firebase-app-compat.min.js", "/resources/firebase-dependencies/firebase-messaging-compat.min.js" ]
+  },
+  "properties" : {
+    "appkey" : {
+      "type" : "string",
+      "displayName" : "App Key",
+      "description" : "App key for your firebase app",
+      "bindable" : "in-bound",
+      "widget" : "string",
+      "show" : true,
+      "showAt" : "",
+      "disabled" : false
+    },
+    "firebasetoken" : {
+      "type" : "string",
+      "displayName" : "Firebase Token",
+      "description" : "Firebase token generated from the provided inputs for Cloud messaging",
+      "bindable" : "out-bound",
+      "value" : "",
+      "widget" : "string",
+      "show" : false,
+      "showAt" : "",
+      "disabled" : true
+    },
+    "apikey" : {
+      "type" : "string",
+      "displayName" : "Api key",
+      "description" : "apiKey value of the firebase config",
+      "bindable" : "in-bound",
+      "widget" : "string",
+      "show" : true,
+      "showAt" : "",
+      "disabled" : false
+    },
+    "authdomain" : {
+      "type" : "string",
+      "displayName" : "Auth Domain",
+      "description" : "authDomain value of firebase config",
+      "bindable" : "in-bound",
+      "widget" : "string",
+      "show" : true,
+      "showAt" : "",
+      "disabled" : false
+    },
+    "projectid" : {
+      "type" : "string",
+      "displayName" : "Project Id",
+      "description" : "projectId value of firebase config",
+      "bindable" : "in-bound",
+      "widget" : "string",
+      "show" : true,
+      "showAt" : "",
+      "disabled" : false
+    },
+    "storagebucket" : {
+      "type" : "string",
+      "displayName" : "Storage Bucket",
+      "description" : "storageBucket value of firebase config",
+      "bindable" : "in-bound",
+      "widget" : "string",
+      "show" : true,
+      "showAt" : "",
+      "disabled" : false
+    },
+    "messagingsenderid" : {
+      "type" : "string",
+      "displayName" : "Messaging Sender Id",
+      "description" : "messagingSenderId of the firebase config",
+      "bindable" : "in-bound",
+      "widget" : "string",
+      "show" : true,
+      "showAt" : "",
+      "disabled" : false
+    },
+    "appid" : {
+      "type" : "string",
+      "displayName" : "App Id",
+      "description" : "appId of the firebase config",
+      "bindable" : "in-bound",
+      "widget" : "string",
+      "show" : true,
+      "showAt" : "",
+      "disabled" : false
+    }
+  },
+  "events" : { },
+  "methods" : { }
+}
