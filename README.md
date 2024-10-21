@@ -12,7 +12,7 @@ Using FCM, you can notify a client app that new email or other data is available
 
 1.  Login to [Firebase console](https://console.firebase.google.com) and Create a project.
 2.  Once the project has been created , Add a Web app to your project by selecting the respective icon as shown in the image below.
-    ![sample](/assets/create_a_webapp.png)
+    ![sample](https://github.com/wm-marketplace/FirebasePushNotifications/assets/create_a_webapp.png)
 3.  After the app is created, Please navigate to Project settings -> General -> Webapps -> Select your app -> Config -> Copy the **config**.
 4.  Next step would be to get Web push Certificate from Project settings -> Cloud Messaging -> Web Configuration -> Web Push Certificates -> Show private key -> Copy the **key**.(**If private key is not present** => Click on Generate key pair).
 
